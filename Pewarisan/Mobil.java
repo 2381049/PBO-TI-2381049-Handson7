@@ -4,7 +4,7 @@ public class Mobil extends Kendaraan {
     private int jumlahPintu;
     private String jenisBahanBakar;
 
-    public Mobil(String merek, String model, int tahunProduksi) {
+    public Mobil(String merek, String model, int tahunProduksi, int jumlahPintu, String jenisBahanBakar) {
         super(merek, model, tahunProduksi);
         this.jumlahPintu = jumlahPintu;
         this.jenisBahanBakar = jenisBahanBakar;
